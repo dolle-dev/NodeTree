@@ -1,0 +1,91 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.todo
+
+# OS generated files #
+######################
+ehthumbs.db
+Thumbs.db
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.lock
+*.out
+*.bak
+*.tmp
+*~
+
+# Node #
+########
+/frontend/node_modules/
+/frontend/yarn-error.log
+/frontend/package-lock.json
+/frontend/yarn.lock
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/.cache
+/frontend/public/packs
+/frontend/public/packs-test
+/frontend/build
+
+# Dependency directories
+/frontend/node_modules/
+/backend/vendor/bundle/
+
+# dotenv environment variables file
+.env
+.env.*
+
+# Rails #
+#########
+/backend/log/*
+/backend/tmp/*
+/backend/storage/*
+/backend/public/assets
+/backend/public/packs
+/backend/public/packs-test
+/backend/vendor/bundle/
+/backend/node_modules/
+/backend/yarn-error.log
+/backend/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/backend/config/master.key
+/backend/config/credentials.yml.enc
+/backend/config/credentials/*.key
+
+# Ignore database configuration files.
+/backend/config/database.yml
+
+# Ignore uploaded files in development.
+/backend/storage/*
+
+# Ignore coverage data
+/backend/coverage
+/frontend/coverage
+
+# Ignore Mac and Linux file system files
+.localized
+
+# JetBrains IDEs
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
